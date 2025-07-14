@@ -6,6 +6,8 @@ A collection of ERD schemas and SQL practice problems.
 
 1. Clinic Database
 2. Library Database
+3. Karate Club Database
+4. Car Rental Database
    ...
 
 ## SQL Problems
