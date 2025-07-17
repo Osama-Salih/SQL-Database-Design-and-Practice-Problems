@@ -1,0 +1,2 @@
+SELECT * FROM Makes
+WHERE Make LIKE '%W';
