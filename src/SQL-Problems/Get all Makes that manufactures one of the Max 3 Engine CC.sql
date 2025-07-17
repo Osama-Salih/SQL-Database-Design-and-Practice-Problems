@@ -1,0 +1,6 @@
+SELECT DISTINCT M.Make
+FROM VehicleDetails AS V
+JOIN Makes AS M
+ON V.MakeID = M.MakeID
+WHERE Engine_CC IN (SELECT DISTINCT TOP 3 Engine_CC FROM VehicleDetails ORDER BY Engine_CC DESC)
+ORDER BY M.Make;
